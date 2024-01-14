@@ -7,6 +7,13 @@ body{
     background: url("https://i.pinimg.com/564x/44/52/ac/4452ac0ba9443f69649dfc6b0a4b8781.jpg");
 }
 
+h1{
+    text-align: center;
+    font-size: 2.6rem;
+    color: aliceblue;
+    text-shadow: 2px 1px gold;
+}
+
 .keyboard{
     width: 100%;
     display: flex;
@@ -24,7 +31,8 @@ body{
 }
 
 .key:hover{
-    width: 6.5rem;
+    width: 6.3rem;
+    height: 6.3rem;
     box-shadow: 5px 5px 5px wheat;
 }
 kbd{
@@ -32,4 +40,33 @@ kbd{
 }
 p{
     color: darkmagenta;
+}
+
+@media only screen and (max-width: 450px) {
+    .keyboard{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: auto;
+        top: 11rem;
+    }
+    
+    .key{
+        width: 6rem;
+        height: 6rem;
+        margin: 6px;
+        background: url("https://i.pinimg.com/564x/53/2b/5d/532b5d9f2f7ea49a4925b18be21b2a55.jpg");
+        background-size: cover;
+    }
+    
+    .key:hover{
+        width: 6.3rem;
+        height: 6.3rem;
+        box-shadow: 5px 5px 5px wheat;
+    }
+    kbd{
+        font-size: 2rem;
+    }
+    p{
+        color: darkmagenta;
+    }
 }
