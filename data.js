@@ -1,4 +1,4 @@
-export default dataArray=[
+export const dataArray=[
     {
         id:0,
         key:'A',
@@ -18,39 +18,39 @@ export default dataArray=[
         url:"/assets/kick.wav"
     },
     {
-        id:0,
-        key:'A',
-        type:'CLAP',
-        url:"/assets/clap.wav"
+        id:3,
+        key:'F',
+        type:'OPENHAT',
+        url:"/assets/openhat.wav"
     },
     {
-        id:0,
-        key:'A',
-        type:'CLAP',
-        url:"/assets/clap.wav"
+        id:4,
+        key:'G',
+        type:'BOOM',
+        url:"/assets/boom.wav"
     },
     {
-        id:0,
-        key:'A',
-        type:'CLAP',
-        url:"/assets/clap.wav"
+        id:5,
+        key:'H',
+        type:'RIDE',
+        url:"/assets/ride.wav"
     },
     {
-        id:0,
-        key:'A',
-        type:'CLAP',
-        url:"/assets/clap.wav"
+        id:6,
+        key:'J',
+        type:'SNARE',
+        url:"/assets/snare.wav"
     },
     {
-        id:0,
-        key:'A',
-        type:'CLAP',
-        url:"/assets/clap.wav"
+        id:7,
+        key:'K',
+        type:'TOM',
+        url:"/assets/tom.wav"
     },
     {
-        id:0,
-        key:'A',
-        type:'CLAP',
-        url:"/assets/clap.wav"
+        id:8,
+        key:'L',
+        type:'TINK',
+        url:"/assets/tink.wav"
     },
 ]
